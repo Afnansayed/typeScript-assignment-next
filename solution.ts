@@ -86,7 +86,7 @@ const getUniqueValues = <T extends string | number>(
   arr2: T[]
 ): T[] => {
   const newArray = [...arr1, ...arr2];
-  // console.log(newArray);
+
   const result: T[] = [];
   for (let i = 0; i < newArray.length; i++) {
     const currentValue = newArray[i];
