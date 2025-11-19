@@ -1,5 +1,5 @@
 
-
+3. Explain the difference between any, unknown, and never types in TypeScript.
 
 Typescript আমাদের বিশেষ তিনটি type দিয়ে থাকে যা সাধারণত অন্য কোন programming language পাওয়া যায় না।
 এগুলো হলো any, unknown এবং never. এই টাইপ গুলে আমরা অন্যান্য প্রোগামিং language যেমন, c,c++, java etc এগুলোতে দেখি না।এই টাইপ গুলে আমাদের অজানা কোন ডাটা থাকলে সেটিকে ডিফাইন করতে সাহায্য করে।
@@ -33,9 +33,9 @@ if (typeof  name === "string") {
 
 ### never:
 
-Never হলে এমন type যা দিয়ে type ডিক্লেয়ার করা হলে variable আর কোন মান assign করা যায় না। এটি এমন কিছু represent করে যা কখনো ঘটবে না। সাধারণত এটি এমন function এ ব্যবহৃত হয় যেটি কখনো সফলভাবে return করবে না। এটি এমন একটি টাইপ যা কখনো কোনো মান গ্রহণ করে না।
+Never হলে এমন type যা দিয়ে type ডিক্লেয়ার করা হলে variable আর কোন মান assign করা যায় না। এটি এমন একটি টাইপ যা কখনো কোনো মান গ্রহণ করে না। এটি এমন কিছু represent করে যা কখনো ঘটবে না। 
 
-এটি সাধারণত সেই সব function-এ ব্যবহৃত হয় যেগুলো কখনো normal execution-এ ফিরে আসে না ,বা যেগুলো সবসময় error throw করে। 
+এটি সাধারণত সেই সব function-এ ব্যবহৃত হয় যেগুলো কখনো normal execution-এ ফিরে আসে না ,বা যেগুলো সবসময় error throw করে। সাধারণত এটি এমন function এ ব্যবহৃত হয় যেটি কখনো সফলভাবে return করবে না। 
 
 ```ts
 
