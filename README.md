@@ -16,6 +16,8 @@ interface User {
 
 ```
 
+<P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না </P>
+
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
 
 Typescript আমাদের বিশেষ তিনটি type দিয়ে থাকে যা সাধারণত অন্য কোন programming language পাওয়া যায় না।
