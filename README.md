@@ -30,6 +30,7 @@ type price = [number , number]  (tuple)
     Object oriented প্রোগ্রামিং এর ক্ষেত্রে  ইন্টারফেস কিছু Extra সুবিধা দেয় যেমন extends, implements যা type দিতে পারে না
 </p>
 ###emaple:
+
 ```ts
 class Person {
 name: string;
