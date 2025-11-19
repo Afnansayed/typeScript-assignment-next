@@ -20,9 +20,11 @@ interface User {
 টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে।
 
 ```ts
+
 type phone= string| number      (union)
 type name = string              (primitive)
 type price = [number , number]  (tuple)
+
 ```
 <p>
     Object oriented প্রোগ্রামিং এর ক্ষেত্রে  ইন্টারফেস কিছু Extra সুবিধা দেয় যেমন extends, implements যা type দিতে পারে না
