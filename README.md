@@ -22,8 +22,11 @@ interface User {
 ```ts
 type phone= string| number      (union)
 type name = string              (primitive)
-type price = [number , number]    (tuple)
+type price = [number , number]  (tuple)
 ```
+<p>
+    Object oriented প্রোগ্রামিং এর ক্ষেত্রে  ইন্টারফেস কিছু Extra সুবিধা দেয় যেমন extends implements যা type দিতে পারে না
+</p>
 
 
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
