@@ -33,8 +33,32 @@ type price = [number , number]  (tuple)
 
 ```ts
 class Person {
-name: string;
-age: number;
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+class Student extends Person {
+  roll: number;
+
+  constructor(name: string, age: number, roll: number) {
+    super(name, age); 
+    this.roll = roll;
+  }
+}
+
+class Teacher extends Person {
+  subject: string;
+
+  constructor(name: string, age: number, subject: string) {
+    super(name, age); 
+    this.subject = subject;
+  }
+}
 ```
 
 
