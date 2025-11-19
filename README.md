@@ -61,6 +61,9 @@ class Teacher extends Person {
 }
 ```
 
+সহজভাবে বলতে গেলে, Interface ব্যবহার করা হয় object এর shape  ডিফাইন করতে এবং ভবিষ্যতে এটি extend এর প্রয়োজন পড়ে।
+
+
 
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
 
