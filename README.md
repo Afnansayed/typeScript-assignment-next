@@ -14,6 +14,11 @@ interface User {
     age: number
 }
 
+const user:User = {
+   name: "Afnan sayed",
+   age: 24
+}
+
 ```
 
 <P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না।
