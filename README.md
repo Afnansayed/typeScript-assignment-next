@@ -76,6 +76,19 @@ class Teacher extends Person {
   }
 }
 ```
+Type ও extend এর মতো সুবিধা দিতে পারে,  তবে এখানে সিন্টেক্সট ভিন্ন।  এবং এই পদ্ধতিতে এক্সটেন্ড সচরাচর ইউস করা হয় না।
+
+```ts
+
+type Person = {
+  name: string;
+}
+
+type Student = Person & {
+  getDetails(): void;
+}
+
+```
 
 সহজভাবে বলতে গেলে, Interface ব্যবহার করা হয় object এর shape  ডিফাইন করতে এবং ভবিষ্যতে এটি extend এর প্রয়োজন পড়ে।
 
