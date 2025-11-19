@@ -1,3 +1,5 @@
+<h1>1.What are some differences between interfaces and types in TypeScript?</h1>
+
 
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
 
