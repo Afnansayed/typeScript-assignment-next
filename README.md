@@ -17,6 +17,14 @@ interface User {
 ```
 
 <P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না </P>
+টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে।
+
+```ts
+type phone= string| number      (union)
+type name = string              (primitive)
+type price = [number , number]    (tuple)
+```
+
 
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
 
