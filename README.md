@@ -90,7 +90,7 @@ type Student = Person & {
 
 ```
 
-সহজভাবে বলতে গেলে, Interface ব্যবহার করা হয় object এর shape  ডিফাইন করতে এবং ভবিষ্যতে এটি extend এর প্রয়োজন পড়ে।
+সহজভাবে বলতে গেলে, Interface ব্যবহার করা হয় object এর shape  ডিফাইন করতে এবং ভবিষ্যতে এটি extend এর প্রয়োজন পড়ে।  আর type ব্যবহার করা হয় যখন আরও জটিল type compositions প্রয়োজন, যেমন unions।
 
 
 
