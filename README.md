@@ -1,4 +1,7 @@
 <h1>1.What are some differences between interfaces and types in TypeScript?</h1>
+<p>ইন্টারফেস এবং টাইপ দেখতে একই ধরনের মনে হবে এবং উভয় object এর ধরন এবং বৈশিষ্ট্য বর্ননা করতে ব্যবহৃত হয় তবে এদের মধ্যে অনেক পার্থক্য আছে।
+</p>
+Interface একই নামে একাধিকবার টাইপ ডিক্লেয়ার করা যায় টাইপ স্ক্রিপ্ট নিজ থেকে এটি মারজ করে ফেলে।
 
 
 <h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
