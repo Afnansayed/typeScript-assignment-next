@@ -22,13 +22,24 @@ const user:User = {
 ```
 
 <P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না।
-টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে। </P> 
+টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে। যদিও এটির  মাধ্যমে একই নামে একাদিক টাইপ ডিক্লেয়ার করা যায় না তবে Object define করা যায় interface এর মতো। </P> 
 
 ```ts
 
 type phone= string| number      (union)
 type name = string              (primitive)
 type price = [number , number]  (tuple)
+
+// object
+type User = {
+    name: string;
+    age: number;
+}
+
+const user:User = {
+   name: "Afnan sayed",
+   age: 24
+}
 
 ```
 <p>
