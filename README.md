@@ -21,6 +21,16 @@ data.anyMethod(); // কোনো error নেই যদিও runtime-এ error
 
 Unknown হলো any এর নিরাপদ বিকল্প। এটি দিয়ে ডিক্লেয়ার করলে যে কোন মান assign করা যায় তবে ব্যবহার আগে type check করতে হবে। এতে করে অনেকটা টাইপ সেইফটি বজায় থাকে। বলতে পারি any এর থেকে নিরাপদ।
 
+```ts
+const name:any = "Afnan sayed"
+name = 124354   // কোনো error নেই
+
+if (typeof  name === "string") {
+  console.log(name.toUpperCase()); // এখন ঠিক আছে
+}
+
+```
+
 ### never:
 
 Never হলে এমন type যা দিয়ে type ডিক্লেয়ার করা হলে variable আর কোন মান assign করা যায় না। এটি এমন কিছু represent করে যা কখনো ঘটবে না। সাধারণত এটি এমন function এ ব্যবহৃত হয় যেটি কখনো সফলভাবে return করবে না।
