@@ -16,8 +16,8 @@ interface User {
 
 ```
 
-<P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না </P>
-টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে।
+<P>Type এভাবে করতে পারে না তবে টাইপ এর কিছু বৈশিষ্ট্য আছে  Interface করতে পারে না।
+টাইপ union type, primitive type এবং tuple type তৈরী করতে পারে। </P> 
 
 ```ts
 
