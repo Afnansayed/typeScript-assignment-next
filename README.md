@@ -33,7 +33,17 @@ if (typeof  name === "string") {
 
 ### never:
 
-Never হলে এমন type যা দিয়ে type ডিক্লেয়ার করা হলে variable আর কোন মান assign করা যায় না। এটি এমন কিছু represent করে যা কখনো ঘটবে না। সাধারণত এটি এমন function এ ব্যবহৃত হয় যেটি কখনো সফলভাবে return করবে না।
+Never হলে এমন type যা দিয়ে type ডিক্লেয়ার করা হলে variable আর কোন মান assign করা যায় না। এটি এমন কিছু represent করে যা কখনো ঘটবে না। সাধারণত এটি এমন function এ ব্যবহৃত হয় যেটি কখনো সফলভাবে return করবে না। এটি এমন একটি টাইপ যা কখনো কোনো মান গ্রহণ করে না।
+
+এটি সাধারণত সেই সব function-এ ব্যবহৃত হয় যেগুলো কখনো normal execution-এ ফিরে আসে না ,বা যেগুলো সবসময় error throw করে। 
+
+```ts
+
+function throwError(message: string): never {
+  throw new Error(message);
+}
+
+```
 
 
 
