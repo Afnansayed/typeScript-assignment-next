@@ -22,7 +22,7 @@ data.anyMethod(); // কোনো error নেই যদিও runtime-এ error
 Unknown হলো any এর নিরাপদ বিকল্প। এটি দিয়ে ডিক্লেয়ার করলে যে কোন মান assign করা যায় তবে ব্যবহার আগে type check করতে হবে। এতে করে অনেকটা টাইপ সেইফটি বজায় থাকে। বলতে পারি any এর থেকে নিরাপদ।
 
 ```ts
-const name:any = "Afnan sayed"
+const name:unknown = "Afnan sayed"
 name = 124354   // কোনো error নেই
 
 if (typeof  name === "string") {
