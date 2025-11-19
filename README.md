@@ -1,5 +1,5 @@
 
-3. Explain the difference between any, unknown, and never types in TypeScript.
+<h1>3. Explain the difference between any, unknown, and never types in TypeScript.</h1>
 
 Typescript আমাদের বিশেষ তিনটি type দিয়ে থাকে যা সাধারণত অন্য কোন programming language পাওয়া যায় না।
 এগুলো হলো any, unknown এবং never. এই টাইপ গুলে আমরা অন্যান্য প্রোগামিং language যেমন, c,c++, java etc এগুলোতে দেখি না।এই টাইপ গুলে আমাদের অজানা কোন ডাটা থাকলে সেটিকে ডিফাইন করতে সাহায্য করে।
